@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.winnersedgeapps.pickem.app.AddPoolFragment">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal|top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/screen_title"
+            android:layout_margin="10dp"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/screentitle"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/add_pool"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/screentitle"
+            android:id="@+id/addapoolsubtitle" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/poolTitle"
+            android:layout_below="@id/addapoolsubtitle"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/hint_pool_title"
+            android:layout_margin="5dp"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/poolPasscode"
+            android:layout_below="@id/poolTitle"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/hint_pool_passcode"
+            android:layout_margin="5dp"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/poolCost"
+            android:layout_below="@id/poolPasscode"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/hint_pool_cost"
+            android:layout_margin="5dp"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/poolVisitorName"
+            android:layout_below="@id/poolCost"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/hint_pool_visitor_name"
+            android:layout_margin="5dp"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/poolHomeName"
+            android:layout_below="@id/poolVisitorName"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/hint_pool_home_name"
+            android:layout_margin="5dp"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/poolDescription"
+            android:layout_below="@id/poolHomeName"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/hint_pool_description"
+            android:layout_margin="5dp"/>
+    </RelativeLayout>
+
+</FrameLayout>

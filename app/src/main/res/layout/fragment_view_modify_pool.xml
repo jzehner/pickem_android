@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.winnersedgeapps.pickem.app.ViewModifyPoolFragment">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal|top">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/screen_title"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/screen_title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/view_modify_pool"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/screen_title"
+        android:id="@+id/view_modify_pool_subtitle" />
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/poolSpinner"
+            android:layout_below="@+id/view_modify_pool_subtitle"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

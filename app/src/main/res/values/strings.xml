@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pickem</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="navsection_100">Pool Management</string>
+    <string name="navsection_200">Participation Management</string>
+    <string name="navsection_300">Account</string>
+    <string name="navitem_110">Add a pool</string>
+    <string name="navitem_120">View/Modify Pool</string>
+    <string name="navitem_130">View/Modify Scores</string>
+    <string name="navitem_210">Add Participant</string>
+    <string name="navitem_220">View/Modify Participant</string>
+    <string name="navitem_310">Manage Profile</string>
+    <string name="screen_title">Squares Pick\'EM</string>
+    <!--add pool fragment-->
+    <string name="add_pool">Add New Pool</string>
+    <string name="hint_pool_title">Pool Title</string>
+    <string name="hint_pool_passcode">Pool Passcode</string>
+    <string name="hint_pool_cost">Cost Per Square</string>
+    <string name="hint_pool_visitor_name">Visitor Team Description (Top)</string>
+    <string name="hint_pool_home_name">Home Team Description (Left)</string>
+    <string name="hint_pool_description">Pool Description</string>
+    <!--view modify pool fragment-->
+    <string name="view_modify_pool">View or Modify Pool</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
